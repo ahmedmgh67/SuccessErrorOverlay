@@ -1,0 +1,19 @@
+name: success_error_overlay
+description: A plugin for showing Succes or Error OverLay in a few lines of code and highly customizable colors and text
+version: 1.0.0
+author: Ahmed Gamal at Confidence Software <ahmedmgh67@gmail.com>
+homepage: https://github.com/ahmedmgh67/Show-Dialog-Flutter-Package
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+
+flutter:
+  plugin:
+    androidPackage: com.confidence.success_error_overlay
+    pluginClass: SuccessErrorOverlayPlugin
