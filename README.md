@@ -5,7 +5,7 @@ A plugin for showing an overlay above screen with a nice animation and highly Cu
 ## Basic Example
 
 # !!! Complete Example in the Example Tab
-~~~~
+~~~~ dart
 SuccessErrorOverlay(
   onTap: () => setState(() => isVisible = false),
   isCorrect: true,
@@ -15,7 +15,7 @@ SuccessErrorOverlay(
 
 ## Complete Example
 
-~~~~
+~~~~ dart
 import 'package:flutter/material.dart';
 import 'package:success_error_overlay/success_error_overlay.dart';
 
